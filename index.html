@@ -26,6 +26,9 @@
   .box{
     width: 100%;
     height: 870px;
+    display:flex;
+	align-items:center; 
+	justify-content:center;
     /* background-image: url(img/1.jpg); */
     /* background-repeat: no-repeat; */
     /* background-position: center; */
@@ -36,34 +39,53 @@
 a:link {color: blue; text-decoration:none;} 
 
 a:visited {color:blue;text-decoration:none;} 
+.content{
+  width: 1070px;
+		
+			margin: 0 auto;
+      padding: 10px;
+			position: relative;
+}
 </style>
 <body>
+ 
   <div class="dd">
     TSFMO
   </div>
-  <div class="box">
-    <img src="img/2.png" alt="TSFMO Dataset">
-     
-  </div>
-  <div class="main">
-<h2>Details</h2>
-<p>We introduce TSFMO, a benchmark for Tracking Small and Fast Moving Objects.
-  This benchmark aims to spur research in developing more accurate and innovative methods for this particually challenging task.
-  TSFMO consists of 250 sequences with about 50k annotated frames, all of which have been manually annotated with a bounding box.
-  To the best of our knowledge, TSFMO is the first benchmark dedicated to tracking small and fast moving-objects,
-  particular in sports applications. </p>
-  <p>The complete TSFMO dataset(~4.03G) can be downloaded here: <a href="https://share.weiyun.com/ScF3FdzL">"https://share.weiyun.com/ScF3FdzL"</a></p>
+<div class="content">
   
-  <p>All results of our method on TSFMO can be downloaded here: <a href="https://share.weiyun.com/mqyL1WjJ">"https://share.weiyun.com/mqyL1WjJ"</a></p>
-  </div>
-  <div>
-    <h2>Publications</h2>
-    <p>Zhewen Zhang†
-      , Fuliang Wu†
-      , Yuming Qiu, Jingdong Liang, Shuiwang Li*</p>
+ 
+    <div class="box">
+      <img src="img/2.png" alt="TSFMO Dataset">
+       
+    </div>
+    <div class="main">
+  <h2>Details</h2>
+  <p>We introduce TSFMO, a benchmark for Tracking Small and Fast Moving Objects.
+    This benchmark aims to spur research in developing more accurate and innovative methods for this particually challenging task.
+    TSFMO consists of 250 sequences with about 50k annotated frames, all of which have been manually annotated with a bounding box.
+    To the best of our knowledge, TSFMO is the first benchmark dedicated to tracking small and fast moving-objects,
+    particular in sports applications. </p>
+    <p>The complete TSFMO dataset(~4.03G) can be downloaded here: <a href="https://share.weiyun.com/ScF3FdzL">"https://share.weiyun.com/ScF3FdzL"</a></p>
     
-    <a href="https://arxiv.org/abs/2209.04284v1" class="ts">"Tracking Small and Fast Moving Objects: A Benchmark"</a>
-    <p>Asian Conference on Computer Vision(ACCV 2022)</p>
-  </div>
+    <p>All results of our method on TSFMO can be downloaded here: <a href="https://share.weiyun.com/mqyL1WjJ">"https://share.weiyun.com/mqyL1WjJ"</a></p>
+    </div>
+    <div>
+      <h2>Publications</h2>
+      <p>Zhewen Zhang†
+        , Fuliang Wu†
+        , Yuming Qiu, Jingdong Liang, Shuiwang Li*</p>
+      
+      <a href="https://arxiv.org/abs/2209.04284v1" class="ts">"Tracking Small and Fast Moving Objects: A Benchmark"</a>
+      <p>Asian Conference on Computer Vision(ACCV 2022)</p>
+    </div>
+  
+
+
+</div>
+
+
+
+ 
 </body>
 </html>
